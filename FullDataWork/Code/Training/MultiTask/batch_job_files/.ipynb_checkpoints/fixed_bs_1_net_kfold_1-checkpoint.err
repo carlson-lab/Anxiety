@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 31083388 ON dcc-mastatlab-gpu-01 CANCELLED AT 2023-05-04T22:21:46 ***
+slurmstepd: error: *** STEP 31083388.0 ON dcc-mastatlab-gpu-01 CANCELLED AT 2023-05-04T22:21:46 ***

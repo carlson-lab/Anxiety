@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 31190960 ON dcc-ece-gpu-02 CANCELLED AT 2023-05-08T13:44:52 ***
+slurmstepd: error: *** STEP 31190960.0 ON dcc-ece-gpu-02 CANCELLED AT 2023-05-08T13:44:52 ***

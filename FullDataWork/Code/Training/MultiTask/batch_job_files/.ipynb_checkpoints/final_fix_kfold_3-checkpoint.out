@@ -1,0 +1,4 @@
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 3 with auc 0.5712643656675499 for sup net 0 using constraint positive correlation
+Beginning Training

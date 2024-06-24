@@ -1,0 +1,7 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/kfold_cv_2_net_Adam.py", line 66, in <module>
+    with open(flx_data_path,"rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/work/mk423/Anxiety/flx_kf_dict_fold_5.pkl'
+srun: error: dcc-carin-gpu-10: task 0: Exited with exit code 1

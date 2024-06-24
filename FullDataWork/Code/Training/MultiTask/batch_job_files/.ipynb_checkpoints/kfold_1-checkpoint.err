@@ -1,0 +1,7 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/kfold_cv.py", line 98, in <module>
+    feature_groups=feature_groups,
+NameError: name 'feature_groups' is not defined
+srun: error: dcc-carin-gpu-08: task 0: Exited with exit code 1

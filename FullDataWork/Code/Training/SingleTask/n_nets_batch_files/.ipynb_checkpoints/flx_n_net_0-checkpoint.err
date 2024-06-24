@@ -1,0 +1,16 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 76.78it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 81.66it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 83.33it/s]
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/SingleTask/flx_st_n_networks.py", line 215, in <module>
+    best_model_name=saved_model_name)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 757, in fit
+    batch_size,
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 572, in pretrain_encoder
+    dset = TensorDataset(X, y, task_mask, y_pred_weights, intercept_mask)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 184, in __init__
+    assert all(tensors[0].size(0) == tensor.size(0) for tensor in tensors), "Size mismatch between tensors"
+AssertionError: Size mismatch between tensors
+srun: error: dcc-biostat-gpu-01: task 0: Exited with exit code 1

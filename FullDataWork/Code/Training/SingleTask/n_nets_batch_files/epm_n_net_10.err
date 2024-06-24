@@ -1,0 +1,3 @@
+slurmstepd: error: *** JOB 31190956 ON dcc-collinslab-gpu-02 CANCELLED AT 2023-05-08T13:44:52 ***
+slurmstepd: error: *** STEP 31190956.0 ON dcc-collinslab-gpu-02 CANCELLED AT 2023-05-08T13:44:52 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

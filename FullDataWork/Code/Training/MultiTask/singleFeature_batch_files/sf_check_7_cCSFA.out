@@ -1,0 +1,17 @@
+Running  VTA
+(55657, 56) (55657, 3)
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 22 with auc 0.5432661520501358 for sup net 0 using constraint n/a correlation
+Identifying predictive components for supervised network 1
+Selecting network: 11 with auc 0.5394275604946583 for sup net 1 using constraint n/a correlation
+Identifying predictive components for supervised network 2
+Selecting network: 13 with auc 0.5295510115640039 for sup net 2 using constraint n/a correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.00604694 and AUCs:[0.5407330175271238]
+FLX test auc: 0.534 +/- 0.013
+{'Mouse69061': [0.49584520811000043], 'Mouse78732': [0.5974885372496294], 'Mouse78743': [0.5305099186991871], 'Mouse78745': [0.5477936058321993], 'Mouse78751': [0.5058679782232121], 'Mouse78764': [0.5291819702428298]}
+EPM test auc: 0.504 +/- 0.008
+{'Mouse0641': [0.4747794399693134], 'Mouse39115': [0.4744043430179954], 'Mouse39121': [0.518352124229764], 'Mouse39122': [0.5213919399127765], 'Mouse39132': [0.5201228153046764], 'Mouse39135': [0.502492493869038], 'Mouse6674': [0.5473759305210918], 'Mouse69061': [0.514961402882513], 'Mouse69071': [0.518291234460369], 'Mouse69075': [0.4999582236704683], 'Mouse8893': [0.45203200734218596]}
+OFT test auc: 0.527 +/- 0.020
+{'Mouse04203': [0.4815049572390827], 'Mouse39115': [0.5551428297546013], 'Mouse39121': [0.4703012576776835], 'Mouse39122': [0.49504074017666766], 'Mouse39132': [0.454769718968028], 'Mouse39135': [0.5831055577248472], 'Mouse69061': [0.6257126976727507], 'Mouse69071': [0.4889158806309969], 'Mouse69075': [0.5928265274314215]}

@@ -1,0 +1,16 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:09<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:09<00:00,  9.05s/it]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:09<00:00,  9.05s/it]
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/n_sup_nets_20_to_1.py", line 126, in <module>
+    best_model_name=saved_model_name)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 932, in fit
+    self.save_folder + "dCSFA-NMF-last-epoch.pt",
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/work/mk423/Anxiety/kfold_models/MultiTask/dCSFA-NMF-last-epoch.pt'
+srun: error: dcc-carlsonlab-gpu-14: task 0: Exited with exit code 1

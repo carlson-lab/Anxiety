@@ -1,0 +1,7 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/SingleTask/epm_st_n_networks.py", line 213, in <module>
+    y_val=y_int_task_mask_val,
+NameError: name 'y_int_task_mask_val' is not defined
+srun: error: dcc-mastatlab-gpu-01: task 0: Exited with exit code 1

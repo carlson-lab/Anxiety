@@ -1,0 +1,31 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+/opt/conda/lib/python3.7/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/opt/conda/lib/python3.7/site-packages/sklearn/linear_model/_logistic.py:818: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG,
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/singleFeatureLR.py", line 239, in <module>
+    flx_y_mouse_test[flx_y_hab_test==1])
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/singleFeatureLR.py", line 28, in score_lr
+    group_auc = roc_auc_score(y_true[group_mask==1],y_pred[group_mask==1])
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 572, in roc_auc_score
+    sample_weight=sample_weight,
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 342, in _binary_roc_auc_score
+    fpr, tpr, _ = roc_curve(y_true, y_score, sample_weight=sample_weight)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 963, in roc_curve
+    y_true, y_score, pos_label=pos_label, sample_weight=sample_weight
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_ranking.py", line 735, in _binary_clf_curve
+    y_score = column_or_1d(y_score)
+  File "/opt/conda/lib/python3.7/site-packages/sklearn/utils/validation.py", line 1025, in column_or_1d
+    "y should be a 1d array, got an array of shape {} instead.".format(shape)
+ValueError: y should be a 1d array, got an array of shape (3713, 2) instead.
+srun: error: dcc-gehmlab-gpu-59: task 0: Exited with exit code 1

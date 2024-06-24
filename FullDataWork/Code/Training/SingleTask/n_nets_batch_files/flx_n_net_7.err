@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 31210493 ON dcc-ultrasound-gpu-03 CANCELLED AT 2023-05-09T15:53:23 ***
+slurmstepd: error: *** STEP 31210493.0 ON dcc-ultrasound-gpu-03 CANCELLED AT 2023-05-09T15:53:23 ***

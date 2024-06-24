@@ -1,0 +1,2 @@
+slurmstepd: error: *** STEP 30192849.0 ON dcc-gehmlab-gpu-10 CANCELLED AT 2023-04-21T15:41:17 ***
+slurmstepd: error: *** JOB 30192849 ON dcc-gehmlab-gpu-10 CANCELLED AT 2023-04-21T15:41:17 ***

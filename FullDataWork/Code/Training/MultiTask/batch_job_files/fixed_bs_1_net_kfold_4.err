@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 31083387 ON dcc-ultrasound-gpu-04 CANCELLED AT 2023-05-04T22:21:46 ***
+slurmstepd: error: *** STEP 31083387.0 ON dcc-ultrasound-gpu-04 CANCELLED AT 2023-05-04T22:21:46 ***

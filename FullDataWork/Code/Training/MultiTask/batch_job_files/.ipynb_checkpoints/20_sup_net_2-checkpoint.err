@@ -1,0 +1,11 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/n_sup_nets_20_to_1.py", line 110, in <module>
+    save_folder=saved_model_path,
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 127, in __init__
+    verbose,
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/nmf_base.py", line 114, in __init__
+    assert len(fixed_corr) == len(range(self.n_sup_networks))
+AssertionError
+srun: error: dcc-carlsonlab-gpu-09: task 0: Exited with exit code 1

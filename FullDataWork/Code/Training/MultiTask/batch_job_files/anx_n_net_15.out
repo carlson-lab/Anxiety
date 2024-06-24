@@ -1,0 +1,6 @@
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 14 with auc 0.5657425027062378 for sup net 0 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0339506 and AUCs:[0.9998739407354261]
+Loaded the best model from Epoch: 2678 with MSE: 0.0347531 and AUCs: [0.6734318578269614]

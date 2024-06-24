@@ -1,0 +1,5 @@
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/rebal_3_to_1_net.py", line 119
+    n_epochs=1#2000,
+           ^
+SyntaxError: invalid syntax
+srun: error: dcc-collinslab-gpu-01: task 0: Exited with exit code 1

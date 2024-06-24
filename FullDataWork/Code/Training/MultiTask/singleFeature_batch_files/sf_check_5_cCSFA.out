@@ -1,0 +1,9 @@
+Running  PrL_Cx
+(55657, 56) (55657, 3)
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 18 with auc 0.42178774383431894 for sup net 0 using constraint n/a correlation
+Identifying predictive components for supervised network 1
+Selecting network: 5 with auc 0.42702819360101363 for sup net 1 using constraint n/a correlation
+Identifying predictive components for supervised network 2
+Selecting network: 17 with auc 0.43042088353062863 for sup net 2 using constraint n/a correlation

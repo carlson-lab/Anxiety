@@ -1,0 +1,25 @@
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 1 with auc 0.5346686059156155 for sup net 0 using constraint positive correlation
+Identifying predictive components for supervised network 1
+Selecting network: 8 with auc 0.5332764499693485 for sup net 1 using constraint positive correlation
+Identifying predictive components for supervised network 2
+Selecting network: 23 with auc 0.5255080671675201 for sup net 2 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0361654 and AUCs:[1.0]
+Loaded the best model from Epoch: 680 with MSE: 0.0343274 and AUCs: [0.6512777976398467]
+
+flx train {'Mouse3194': [0.8469451472154136], 'Mouse3202': [nan], 'Mouse3203': [0.7725280909170242], 'Mouse61631': [0.7542074989082288], 'Mouse61635': [0.7196448243277213], 'Mouse78744': [0.6827440027596282], 'Mouse78752': [0.6641887951364374], 'Mouse99002': [nan], 'Mouse99003': [nan], 'Mouse99021': [nan]}
+
+flx val {'Mouse3191': [0.8674299586254975], 'Mouse3192': [0.633057210454055], 'Mouse3193': [0.5522477248039067]}
+
+epm train {'Mouse0634': [0.909220066627474], 'Mouse0642': [0.9049803591470259], 'Mouse0643': [0.9776524644945698], 'Mouse1551': [0.8673794958337727], 'Mouse39114': [0.8632768361581922], 'Mouse39124': [0.7528822055137845], 'Mouse39125': [0.8518079430942501], 'Mouse39133': [0.7510497087904644], 'Mouse6291': [0.8816605720255974], 'Mouse6292': [0.8860577827969133], 'Mouse6293': [0.8599884481493624], 'Mouse69064': [0.7257606490872212], 'Mouse69065': [0.737012987012987], 'Mouse69074': [0.7293500000000002], 'Mouse8580': [0.8841056164999828], 'Mouse8581': [0.8965119472672344], 'Mouse8582': [1.0], 'Mouse8891': [0.9226199568885042], 'Mouse8894': [0.9669871213495375]}
+
+epm val {'Mouse04193': [0.4111254111254111], 'Mouse04201': [0.5923913043478262], 'Mouse04202': [0.5256164965986394], 'Mouse04205': [0.5714285714285714], 'Mouse04215': [0.5420180722891567], 'Mouse0630': [0.5942354514591406], 'Mouse0633': [0.6621238720009857]}
+
+oft train {'Mouse04191': [0.9496103602755712], 'Mouse04201': [0.9854507007990418], 'Mouse04202': [0.9729910986465065], 'Mouse04205': [0.9879417767751638], 'Mouse39114': [0.934245283018868], 'Mouse39124': [0.9302450316169827], 'Mouse39125': [0.9711689646831156], 'Mouse39133': [0.9310496878553691], 'Mouse69064': [0.8542266117116417], 'Mouse69065': [0.8414684479200608], 'Mouse69072': [0.919624083520743], 'Mouse69074': [0.8136606708799223]}
+
+oft val {'Mouse04193': [0.8445349749532258], 'Mouse04215': [nan], 'Mouse3191': [0.5648311406483114], 'Mouse3192': [nan], 'Mouse3193': [0.591189638631276], 'Mouse3194': [nan], 'Mouse3203': [nan]}
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)

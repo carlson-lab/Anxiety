@@ -1,0 +1,16 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+/opt/conda/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1641: ConvergenceWarning: Maximum number of iterations 1 reached. Increase it to improve convergence.
+  ConvergenceWarning,
+  0%|          | 0/30 [00:00<?, ?it/s] 57%|█████▋    | 17/30 [00:00<00:00, 159.89it/s]100%|██████████| 30/30 [00:00<00:00, 155.02it/s]
+  0%|          | 0/30 [00:00<?, ?it/s] 53%|█████▎    | 16/30 [00:00<00:00, 159.08it/s]100%|██████████| 30/30 [00:00<00:00, 163.25it/s]
+  0%|          | 0/30 [00:00<?, ?it/s] 60%|██████    | 18/30 [00:00<00:00, 173.38it/s]100%|██████████| 30/30 [00:00<00:00, 169.58it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]Encoder Pretrain Epoch: 0, Recon Loss: 3.7449:   0%|          | 0/1 [00:08<?, ?it/s]Encoder Pretrain Epoch: 0, Recon Loss: 3.7449: 100%|██████████| 1/1 [00:08<00:00,  8.50s/it]Encoder Pretrain Epoch: 0, Recon Loss: 3.7449: 100%|██████████| 1/1 [00:08<00:00,  8.50s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Best Epoch: 0, Best Val MSE: 0.128763, Best Val by Window ROC-AUC [0.49521840339750356, 0.4876475301851173, 0.4816116905669092], current MSE: 0.128763, current AUC: [0.49521840339750356, 0.4876475301851173, 0.4816116905669092]:   0%|          | 0/1 [00:07<?, ?it/s]Epoch: 0, Best Epoch: 0, Best Val MSE: 0.128763, Best Val by Window ROC-AUC [0.49521840339750356, 0.4876475301851173, 0.4816116905669092], current MSE: 0.128763, current AUC: [0.49521840339750356, 0.4876475301851173, 0.4816116905669092]: 100%|██████████| 1/1 [00:07<00:00,  7.49s/it]Epoch: 0, Best Epoch: 0, Best Val MSE: 0.128763, Best Val by Window ROC-AUC [0.49521840339750356, 0.4876475301851173, 0.4816116905669092], current MSE: 0.128763, current AUC: [0.49521840339750356, 0.4876475301851173, 0.4816116905669092]: 100%|██████████| 1/1 [00:07<00:00,  7.49s/it]
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/rebal_3_net.py", line 142, in <module>
+    flx_dict['y_mouse_train'],return_dict=True)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 1050, in score
+    if len(np.unique(y[group_mask==1,sup_net])) < 2:
+IndexError: index 2 is out of bounds for axis 1 with size 2
+srun: error: dcc-collinslab-gpu-03: task 0: Exited with exit code 1

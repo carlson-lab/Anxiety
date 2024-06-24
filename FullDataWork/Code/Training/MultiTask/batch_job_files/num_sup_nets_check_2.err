@@ -1,0 +1,4 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/plotting/circle_plot.py:72: RuntimeWarning: invalid value encountered in true_divide
+  factor = max_alpha * np.clip((factor - min_val) / (max_val - min_val), 0, 1)

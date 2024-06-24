@@ -1,0 +1,14 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/30 [00:00<?, ?it/s]  0%|          | 0/30 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/SingleTask/epm_st_3_sn_kfolds.py", line 129, in <module>
+    best_model_name=saved_model_name)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 748, in fit
+    nmf_max_iter)
+  File "/opt/conda/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/nmf_base.py", line 249, in pretrain_NMF
+    s_pos = s_NMF[y[:, sup_net] == 1, component].reshape(-1, 1)
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
+srun: error: dcc-carlsonlab-gpu-05: task 0: Exited with exit code 1

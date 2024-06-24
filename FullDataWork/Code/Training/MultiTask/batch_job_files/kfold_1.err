@@ -1,0 +1,3 @@
+slurmstepd: error: *** STEP 30650081.0 ON dcc-carlsonlab-gpu-11 CANCELLED AT 2023-04-26T11:09:22 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 30650081 ON dcc-carlsonlab-gpu-11 CANCELLED AT 2023-04-26T11:09:22 ***

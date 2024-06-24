@@ -1,0 +1,2 @@
+/opt/conda/bin/python: can't open file '/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/siingleFeatureCheck.py': [Errno 2] No such file or directory
+srun: error: dcc-collinslab-gpu-02: task 0: Exited with exit code 2

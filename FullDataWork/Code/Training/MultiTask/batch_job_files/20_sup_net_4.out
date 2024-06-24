@@ -1,0 +1,76 @@
+(38247, 5152) (38247, 20)
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 19 with auc 0.5592067535307115 for sup net 0 using constraint positive correlation
+Identifying predictive components for supervised network 1
+Selecting network: 0 with auc 0.5410408852467442 for sup net 1 using constraint positive correlation
+Identifying predictive components for supervised network 2
+Selecting network: 11 with auc 0.5298696172479799 for sup net 2 using constraint positive correlation
+Identifying predictive components for supervised network 3
+Selecting network: 10 with auc 0.5239997971928304 for sup net 3 using constraint positive correlation
+Identifying predictive components for supervised network 4
+Selecting network: 29 with auc 0.5215026381498429 for sup net 4 using constraint positive correlation
+Identifying predictive components for supervised network 5
+Selecting network: 22 with auc 0.5195655955080355 for sup net 5 using constraint positive correlation
+Identifying predictive components for supervised network 6
+Selecting network: 4 with auc 0.5176475642340622 for sup net 6 using constraint positive correlation
+Identifying predictive components for supervised network 7
+Selecting network: 25 with auc 0.5145619721558454 for sup net 7 using constraint positive correlation
+Identifying predictive components for supervised network 8
+Selecting network: 3 with auc 0.5140999041472638 for sup net 8 using constraint positive correlation
+Identifying predictive components for supervised network 9
+Selecting network: 8 with auc 0.5127192374239014 for sup net 9 using constraint positive correlation
+Identifying predictive components for supervised network 10
+Selecting network: 26 with auc 0.5086578026717463 for sup net 10 using constraint positive correlation
+Identifying predictive components for supervised network 11
+Selecting network: 24 with auc 0.5057215287212091 for sup net 11 using constraint positive correlation
+Identifying predictive components for supervised network 12
+Selecting network: 1 with auc 0.5046041025994378 for sup net 12 using constraint positive correlation
+Identifying predictive components for supervised network 13
+Selecting network: 12 with auc 0.5027771886521325 for sup net 13 using constraint positive correlation
+Identifying predictive components for supervised network 14
+Selecting network: 28 with auc 0.5026425068460244 for sup net 14 using constraint positive correlation
+Identifying predictive components for supervised network 15
+Selecting network: 17 with auc 0.5018370866724107 for sup net 15 using constraint positive correlation
+Identifying predictive components for supervised network 16
+Selecting network: 16 with auc 0.4962780503505407 for sup net 16 using constraint positive correlation
+Identifying predictive components for supervised network 17
+Selecting network: 18 with auc 0.4961446507180692 for sup net 17 using constraint positive correlation
+Identifying predictive components for supervised network 18
+Selecting network: 14 with auc 0.4931383629807483 for sup net 18 using constraint positive correlation
+Identifying predictive components for supervised network 19
+Selecting network: 20 with auc 0.4907509606658908 for sup net 19 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0356608 and AUCs:[0.9999691913192399]
+
+flx train {'Mouse3192': [1.0], 'Mouse3194': [1.0], 'Mouse3202': [nan], 'Mouse3203': [1.0], 'Mouse61631': [1.0], 'Mouse61635': [1.0], 'Mouse78744': [1.0], 'Mouse99002': [nan], 'Mouse99003': [nan], 'Mouse99021': [nan]}
+
+flx val {'Mouse3191': [0.8066345519194955], 'Mouse3193': [0.5110294467079983], 'Mouse78752': [0.6523955247508898]}
+
+epm train {'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04205': [1.0], 'Mouse04215': [0.9971684668466847], 'Mouse0630': [1.0], 'Mouse0633': [1.0], 'Mouse0634': [1.0], 'Mouse0642': [1.0], 'Mouse0643': [1.0], 'Mouse1551': [1.0], 'Mouse39114': [1.0], 'Mouse39124': [1.0], 'Mouse39125': [1.0], 'Mouse39133': [1.0], 'Mouse6291': [1.0], 'Mouse6292': [1.0], 'Mouse6293': [1.0], 'Mouse69064': [1.0], 'Mouse8580': [1.0], 'Mouse8581': [1.0]}
+
+epm val {'Mouse69065': [0.8378331112591606], 'Mouse69074': [0.6897537703260594], 'Mouse8582': [0.6190476190476191], 'Mouse8891': [0.6079080231250164], 'Mouse8894': [0.7707174638487209]}
+
+oft train {'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04205': [1.0], 'Mouse04215': [nan], 'Mouse3192': [nan], 'Mouse3194': [nan], 'Mouse3203': [nan], 'Mouse39114': [1.0], 'Mouse39124': [1.0], 'Mouse39125': [1.0], 'Mouse39133': [1.0], 'Mouse69064': [1.0], 'Mouse69072': [1.0]}
+
+oft val {'Mouse04191': [0.720532319391635], 'Mouse3191': [0.45492562954925625], 'Mouse3193': [0.5755356571794052], 'Mouse69065': [0.730053220375801], 'Mouse69074': [0.757122022362664]}
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)

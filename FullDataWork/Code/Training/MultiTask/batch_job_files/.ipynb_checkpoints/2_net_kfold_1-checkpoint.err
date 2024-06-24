@@ -1,0 +1,5 @@
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/kfold_cv_2_net.py", line 120
+    n_pre_epochs=1,1000,
+                  ^
+SyntaxError: positional argument follows keyword argument
+srun: error: dcc-carlsonlab-gpu-15: task 0: Exited with exit code 1

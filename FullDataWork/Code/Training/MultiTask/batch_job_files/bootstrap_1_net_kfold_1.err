@@ -1,0 +1,6 @@
+slurmstepd: error: *** JOB 31071572 ON dcc-brunellab-gpu-03 CANCELLED AT 2023-05-04T08:52:15 ***
+slurmstepd: error: *** STEP 31071572.0 ON dcc-brunellab-gpu-03 CANCELLED AT 2023-05-04T08:52:15 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 31077962 ON dcc-brunellab-gpu-04 CANCELLED AT 2023-05-04T22:20:31 ***
+slurmstepd: error: *** STEP 31077962.0 ON dcc-brunellab-gpu-04 CANCELLED AT 2023-05-04T22:20:31 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

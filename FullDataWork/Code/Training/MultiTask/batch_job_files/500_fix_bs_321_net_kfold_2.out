@@ -1,0 +1,25 @@
+(41813, 5152) (41813, 3)
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 2 with auc 0.5479908811006912 for sup net 0 using constraint positive correlation
+Identifying predictive components for supervised network 1
+Selecting network: 3 with auc 0.5328577499607494 for sup net 1 using constraint positive correlation
+Identifying predictive components for supervised network 2
+Selecting network: 24 with auc 0.5110976008414844 for sup net 2 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0405935 and AUCs:[0.9998198828098807]
+
+flx train {'Mouse3192': [1.0], 'Mouse3194': [1.0], 'Mouse3202': [nan], 'Mouse3203': [1.0], 'Mouse61631': [1.0], 'Mouse78744': [1.0], 'Mouse78752': [1.0], 'Mouse99002': [nan], 'Mouse99003': [nan], 'Mouse99021': [nan]}
+
+flx val {'Mouse3191': [0.7636848802011789], 'Mouse3193': [0.5788013626495323], 'Mouse61635': [0.6336991407051672]}
+
+epm train {'Mouse04193': [0.9966613971279171], 'Mouse04201': [0.9927342766695907], 'Mouse04202': [1.0], 'Mouse04215': [0.9971872187218722], 'Mouse0630': [1.0], 'Mouse0633': [1.0], 'Mouse0634': [1.0], 'Mouse0642': [1.0], 'Mouse39125': [1.0], 'Mouse39133': [1.0], 'Mouse6293': [1.0], 'Mouse69064': [1.0], 'Mouse69065': [1.0], 'Mouse69074': [1.0], 'Mouse8580': [1.0], 'Mouse8581': [1.0], 'Mouse8582': [1.0], 'Mouse8891': [1.0], 'Mouse8894': [1.0]}
+
+epm val {'Mouse04205': [0.6049382716049383], 'Mouse0643': [0.7386891215293582], 'Mouse1551': [0.6219449943350889], 'Mouse39114': [0.6287393162393162], 'Mouse39124': [0.7192996246585572], 'Mouse6291': [0.6429486181056713], 'Mouse6292': [0.6422808916551095]}
+
+oft train {'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04215': [nan], 'Mouse3192': [nan], 'Mouse3194': [nan], 'Mouse3203': [nan], 'Mouse39125': [1.0], 'Mouse39133': [1.0], 'Mouse69064': [1.0], 'Mouse69065': [1.0], 'Mouse69072': [1.0], 'Mouse69074': [1.0]}
+
+oft val {'Mouse04191': [0.6299175544930918], 'Mouse04205': [0.8006051491388262], 'Mouse3191': [0.5295108277951083], 'Mouse3193': [0.5285897025903422], 'Mouse39114': [0.6633647798742138], 'Mouse39124': [0.8058002107798857]}
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)

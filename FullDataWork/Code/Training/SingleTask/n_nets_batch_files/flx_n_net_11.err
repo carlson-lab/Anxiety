@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 31210497 ON dcc-collinslab-gpu-01 CANCELLED AT 2023-05-09T15:53:23 ***
+slurmstepd: error: *** STEP 31210497.0 ON dcc-collinslab-gpu-01 CANCELLED AT 2023-05-09T15:53:23 ***

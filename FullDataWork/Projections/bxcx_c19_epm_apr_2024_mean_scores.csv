@@ -1,0 +1,3 @@
+,mouse,condition,composite avgScore,composite avgHCScore,composite avgTaskScore,net 1 avgScore,net 1 avgHCScore,net 1 avgTaskScore,net 2 avgScore,net 2 avgHCScore,net 2 avgTaskScore,net 3 avgScore,net 3 avgHCScore,net 3 avgTaskScore
+0,Mouse67151,CLOCK,31.411346,26.998466,33.685574,1.2246995,1.1060064,1.285868,1.1775644,0.9862274,1.2761729,-0.30189964,-0.38488993,-0.25912982
+1,Mouse67152,CLOCK,24.036438,20.79882,25.429945,0.9234118,0.80848145,0.9728793,0.9229865,0.8022413,0.9749564,-0.54955626,-0.68592364,-0.4908616

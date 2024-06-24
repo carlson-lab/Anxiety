@@ -1,0 +1,15 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/30 [00:00<?, ?it/s] 63%|██████▎   | 19/30 [00:00<00:00, 185.94it/s]100%|██████████| 30/30 [00:00<00:00, 188.41it/s]
+  0%|          | 0/30 [00:00<?, ?it/s]  0%|          | 0/30 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/rebal_3_to_1_net.py", line 126, in <module>
+    best_model_name=saved_model_name)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/dcsfa_nmf.py", line 712, in fit
+    nmf_max_iter)
+  File "/opt/conda/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/models/nmf_base.py", line 249, in pretrain_NMF
+    s_pos = s_NMF[y[:, sup_net] == 1, component].reshape(-1, 1)
+IndexError: index 1 is out of bounds for axis 1 with size 1
+srun: error: dcc-carin-gpu-12: task 0: Exited with exit code 1

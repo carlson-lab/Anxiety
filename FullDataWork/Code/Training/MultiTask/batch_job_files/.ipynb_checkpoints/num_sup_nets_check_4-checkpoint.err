@@ -1,0 +1,14 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:09<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:09<00:00,  9.03s/it]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:09<00:00,  9.03s/it]
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/plotting/circle_plot.py:72: RuntimeWarning: invalid value encountered in true_divide
+  factor = max_alpha * np.clip((factor - min_val) / (max_val - min_val), 0, 1)
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:04<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.90s/it]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.90s/it]
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/plotting/circle_plot.py:72: RuntimeWarning: invalid value encountered in true_divide
+  factor = max_alpha * np.clip((factor - min_val) / (max_val - min_val), 0, 1)
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:04<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.84s/it]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.84s/it]
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/plotting/circle_plot.py:72: RuntimeWarning: invalid value encountered in true_divide
+  factor = max_alpha * np.clip((factor - min_val) / (max_val - min_val), 0, 1)
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:04<?, ?it/s]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.75s/it]Epoch: 0, Current Training MSE: 0.148166, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:04<00:00,  4.75s/it]
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/plotting/circle_plot.py:72: RuntimeWarning: invalid value encountered in true_divide
+  factor = max_alpha * np.clip((factor - min_val) / (max_val - min_val), 0, 1)

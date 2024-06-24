@@ -1,0 +1,2 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 30192781 ON dcc-carin-gpu-10 CANCELLED AT 2023-04-21T15:41:17 ***

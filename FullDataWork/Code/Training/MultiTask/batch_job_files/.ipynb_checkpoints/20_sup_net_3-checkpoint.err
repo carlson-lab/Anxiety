@@ -1,0 +1,10 @@
+/hpc/home/mk423/.local/lib/python3.7/site-packages/lpne/pipelines/__init__.py:14: UserWarning: Could not load lpne/pipelines/default_params.yaml!
+  warnings.warn("Could not load lpne/pipelines/default_params.yaml!")
+  0%|          | 0/1 [00:00<?, ?it/s]Epoch: 0, Current Training MSE: 0.150303, Current Training by Window ROC-AUC: [0.5]:   0%|          | 0/1 [00:08<?, ?it/s]Epoch: 0, Current Training MSE: 0.150303, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:08<00:00,  8.24s/it]Epoch: 0, Current Training MSE: 0.150303, Current Training by Window ROC-AUC: [0.5]: 100%|██████████| 1/1 [00:08<00:00,  8.24s/it]
+/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/n_sup_nets_20_to_1.py:174: RuntimeWarning: invalid value encountered in true_divide
+  net_recon_contribution = np.mean(X_sup_recon/X_recon,axis=0)
+Traceback (most recent call last):
+  File "/hpc/home/mk423/Anxiety/FullDataWork/Code/Training/MultiTask/n_sup_nets_20_to_1.py", line 185, in <module>
+    umc_dt.makeUpperTriangularPlot_pow_coh_gc(net_1_recon_contribution.reshape(1,-1),anxInfo["area"],anxInfo["powerFeatures"],
+NameError: name 'net_1_recon_contribution' is not defined
+srun: error: dcc-carlsonlab-gpu-09: task 0: Exited with exit code 1

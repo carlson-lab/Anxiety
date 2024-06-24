@@ -1,0 +1,22 @@
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 13 with auc 0.5618054325056877 for sup net 0 using constraint positive correlation
+Identifying predictive components for supervised network 1
+Selecting network: 1 with auc 0.551080158345681 for sup net 1 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0387177 and AUCs:[0.9999679055138325, 0.9999679055138329]
+Loaded the best model from Epoch: 497 with MSE: 0.0390152 and AUCs: [0.5475232590190574, 0.5783958604932912]
+
+flx train {'Mouse3191': [1.0, 1.0], 'Mouse3192': [1.0, 1.0], 'Mouse3193': [1.0, 1.0], 'Mouse3202': [nan, nan], 'Mouse61631': [1.0, 1.0], 'Mouse61635': [1.0, 1.0], 'Mouse78744': [1.0, 1.0], 'Mouse78752': [1.0, 1.0], 'Mouse99002': [nan, nan], 'Mouse99003': [nan, nan], 'Mouse99021': [nan, nan]}
+
+flx val {'Mouse3194': [0.6452568337422484, 0.7474041459569988], 'Mouse3203': [0.4479568421153972, 0.5319522632206114]}
+
+epm train {'Mouse04193': [0.9957099957099957, 0.9998569998569998], 'Mouse04201': [1.0, 1.0], 'Mouse04202': [1.0, 1.0], 'Mouse04205': [1.0, 1.0], 'Mouse04215': [1.0, 1.0], 'Mouse0630': [1.0, 1.0], 'Mouse0633': [1.0, 1.0], 'Mouse39133': [1.0, 1.0], 'Mouse6291': [1.0, 1.0], 'Mouse6292': [1.0, 1.0], 'Mouse6293': [1.0, 1.0], 'Mouse69064': [1.0, 1.0], 'Mouse69065': [1.0, 1.0], 'Mouse69074': [1.0, 1.0], 'Mouse8580': [1.0, 1.0], 'Mouse8581': [1.0, 1.0], 'Mouse8582': [1.0, 1.0], 'Mouse8891': [1.0, 1.0], 'Mouse8894': [1.0, 1.0]}
+
+epm val {'Mouse0634': [0.5487703311777385, 0.5390946502057613], 'Mouse0642': [0.7062780583613917, 0.7069374298540964], 'Mouse0643': [0.5092940685045949, 0.49352548036758564], 'Mouse1551': [0.5965813205358085, 0.6039842843581901], 'Mouse39114': [0.4632768361581921, 0.4632768361581921], 'Mouse39124': [0.5590225563909774, 0.555889724310777], 'Mouse39125': [0.5566587630902984, 0.5452479747085556]}
+
+oft train {'Mouse04191': [1.0, 1.0], 'Mouse04193': [1.0, 1.0], 'Mouse04201': [1.0, 1.0], 'Mouse04202': [1.0, 1.0], 'Mouse04205': [1.0, 1.0], 'Mouse3191': [1.0, 1.0], 'Mouse3193': [1.0, 1.0], 'Mouse39114': [1.0, 1.0], 'Mouse39124': [1.0, 1.0], 'Mouse39125': [1.0, 1.0], 'Mouse69065': [1.0, 1.0], 'Mouse69072': [1.0, 1.0], 'Mouse69074': [1.0, 1.0]}
+
+oft val {'Mouse04215': [nan, nan], 'Mouse3192': [nan, nan], 'Mouse3194': [nan, nan], 'Mouse3203': [nan, nan], 'Mouse39133': [0.7802977558077467, 0.7681774930956856], 'Mouse69064': [0.6104430748891826, 0.5991863675246909]}
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)

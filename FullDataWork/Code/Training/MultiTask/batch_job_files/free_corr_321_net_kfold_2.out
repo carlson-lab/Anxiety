@@ -1,0 +1,25 @@
+(48030, 5152) (48030, 3)
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 2 with auc 0.41325429549109427 for sup net 0 using constraint n/a correlation
+Identifying predictive components for supervised network 1
+Selecting network: 15 with auc 0.4481792266826019 for sup net 1 using constraint n/a correlation
+Identifying predictive components for supervised network 2
+Selecting network: 19 with auc 0.4517906433739059 for sup net 2 using constraint n/a correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.0414458 and AUCs:[1.0]
+
+flx train {'Mouse3191': [1.0], 'Mouse3192': [1.0], 'Mouse3193': [1.0], 'Mouse3202': [nan], 'Mouse61631': [1.0], 'Mouse61635': [1.0], 'Mouse78744': [1.0], 'Mouse78752': [1.0], 'Mouse99002': [nan], 'Mouse99003': [nan], 'Mouse99021': [nan]}
+
+flx val {'Mouse3194': [0.6838876592886669], 'Mouse3203': [0.6163133685777382]}
+
+epm train {'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04205': [1.0], 'Mouse04215': [1.0], 'Mouse0630': [1.0], 'Mouse0633': [1.0], 'Mouse39133': [1.0], 'Mouse6291': [1.0], 'Mouse6292': [1.0], 'Mouse6293': [1.0], 'Mouse69064': [1.0], 'Mouse69065': [1.0], 'Mouse69074': [1.0], 'Mouse8580': [1.0], 'Mouse8581': [1.0], 'Mouse8582': [1.0], 'Mouse8891': [1.0], 'Mouse8894': [1.0]}
+
+epm val {'Mouse0634': [0.6078448152902582], 'Mouse0642': [0.7877570889619081], 'Mouse0643': [0.7590805644060081], 'Mouse1551': [0.6175873703606868], 'Mouse39114': [0.7474504662004662], 'Mouse39124': [0.7760429972291548], 'Mouse39125': [0.8686128398296759]}
+
+oft train {'Mouse04191': [1.0], 'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04205': [1.0], 'Mouse3191': [1.0], 'Mouse3193': [1.0], 'Mouse39114': [1.0], 'Mouse39124': [1.0], 'Mouse39125': [1.0], 'Mouse69065': [1.0], 'Mouse69072': [1.0], 'Mouse69074': [1.0]}
+
+oft val {'Mouse04215': [nan], 'Mouse3192': [nan], 'Mouse3194': [nan], 'Mouse3203': [nan], 'Mouse39133': [0.8933254426883892], 'Mouse69064': [0.6708239365424995]}
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)
+(1, 448) (1, 1568) (1, 3136)

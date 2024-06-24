@@ -1,0 +1,16 @@
+Pretraining NMF...
+Identifying predictive components for supervised network 0
+Selecting network: 19 with auc 0.6347355233867533 for sup net 0 using constraint positive correlation
+Identifying predictive components for supervised network 1
+Selecting network: 0 with auc 0.6088963825489804 for sup net 1 using constraint positive correlation
+Identifying predictive components for supervised network 2
+Selecting network: 2 with auc 0.6006934655117807 for sup net 2 using constraint positive correlation
+Beginning Training
+Saving the last epoch with training MSE: 0.045284 and AUCs:[1.0]
+flx_train_auc {'Mouse3192': [0.7674191857899382], 'Mouse3194': [0.361609773090956], 'Mouse3202': [nan], 'Mouse3203': [0.4673767721711023], 'Mouse61631': [0.47710137875101377], 'Mouse61635': [0.4816587160353517], 'Mouse78752': [0.4719337064830518], 'Mouse99002': [nan], 'Mouse99003': [nan], 'Mouse99021': [nan]}
+flx_val_auc {'Mouse3191': [0.653527548753554], 'Mouse3193': [0.45812667269031915], 'Mouse78744': [0.39948531058533204]}
+epm_train_auc {'Mouse04193': [0.750522347634788], 'Mouse04201': [0.8539990083527212], 'Mouse04202': [0.8473857705338339], 'Mouse04205': [0.6123456790123456], 'Mouse04215': [0.623715496549655], 'Mouse0630': [0.5195302314423689], 'Mouse0633': [0.706961519430594], 'Mouse0634': [0.653430323776922], 'Mouse0642': [0.6897546897546898], 'Mouse0643': [0.6565771506599909], 'Mouse1551': [0.5848553891358209], 'Mouse39114': [0.771780303030303], 'Mouse39124': [0.7788826222807397], 'Mouse6291': [0.7432982018932903], 'Mouse6292': [0.7085968947671075], 'Mouse69065': [0.8389823451032645], 'Mouse69074': [0.7376358581177858], 'Mouse8582': [0.4722222222222222], 'Mouse8891': [0.510450728542653], 'Mouse8894': [0.7060622914349277]}
+epm_val_auc {'Mouse39125': [0.7693798449612402], 'Mouse39133': [0.7679226453770632], 'Mouse6293': [0.6479635060280222], 'Mouse69064': [0.7631479989255976], 'Mouse8580': [0.542203663607932], 'Mouse8581': [0.5886077097505669]}
+oft_train_auc {'Mouse04191': [1.0], 'Mouse04193': [1.0], 'Mouse04201': [1.0], 'Mouse04202': [1.0], 'Mouse04205': [1.0], 'Mouse04215': [nan], 'Mouse3192': [nan], 'Mouse3194': [nan], 'Mouse3203': [nan], 'Mouse39114': [1.0], 'Mouse39124': [1.0], 'Mouse69065': [1.0], 'Mouse69074': [1.0]}
+oft_val_auc {'Mouse3191': [0.5441814729418147], 'Mouse3193': [0.7285817077070675], 'Mouse39125': [0.9171655781325593], 'Mouse39133': [0.8889043607417206], 'Mouse69064': [0.6695505093708687], 'Mouse69072': [0.7815533980582525]}
+(1, 448) (1, 1568) (1, 3136)

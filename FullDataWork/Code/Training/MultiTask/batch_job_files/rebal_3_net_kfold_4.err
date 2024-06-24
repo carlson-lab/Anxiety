@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 30983724 ON dcc-brownlab-gpu-01 CANCELLED AT 2023-05-02T10:45:19 ***
+slurmstepd: error: *** STEP 30983724.0 ON dcc-brownlab-gpu-01 CANCELLED AT 2023-05-02T10:45:19 ***

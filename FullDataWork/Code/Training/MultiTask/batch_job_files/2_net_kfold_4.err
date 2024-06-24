@@ -1,0 +1,2 @@
+slurmstepd: error: *** STEP 30698952.0 ON dcc-carlsonlab-gpu-04 CANCELLED AT 2023-04-27T09:52:01 ***
+slurmstepd: error: *** JOB 30698952 ON dcc-carlsonlab-gpu-04 CANCELLED AT 2023-04-27T09:52:01 ***
