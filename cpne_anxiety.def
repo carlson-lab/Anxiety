@@ -1,0 +1,44 @@
+Bootstrap: docker
+From: pytorch/pytorch:1.10.0-cuda11.3-cudnn8-runtime
+    
+%post
+    apt-get update
+    apt -y install software-properties-common
+    add-apt-repository ppa:ubuntu-x-swat/updates
+    apt-get -y install libcupti-dev
+    apt-get -y install libglib2.0-0
+    apt-get -y install libx11-6
+    apt-get -y install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+    # Set up Python environment
+    CONDA_ENV=/opt/conda/bin
+    export PATH=$CONDA_ENV:$PATH
+    chmod -R 777 $CONDA_ENV
+
+    pip install --no-cache-dir --upgrade pip
+    pip3 install --no-cache-dir --upgrade setuptools numpy scipy cython 
+    pip3 install --no-cache-dir --upgrade scikit-learn=1.0.1
+    pip install --no-cache-dir --upgrade matplotlib seaborn pickle-mixin
+    pip install --no-cache-dir --upgrade pandas
+    pip install --no-cache-dir --upgrade python-dotenv
+    pip install --no-cache-dir --upgrade mne
+    pip install --no-cache-dir --upgrade jupyterlab
+    pip install --no-cache-dir --upgrade jupyterhub
+    pip install --no-cache-dir --upgrade jupyterhub-dummyauthenticator
+    pip install --no-cache-dir --upgrade python-dev-tools
+    pip install --no-cache-dir --upgrade pytorch-lightning
+    pip install --no-cache-dir --upgrade pytorch-lightning-bolts
+    pip install --no-cache-dir --upgrade umap-learn
+    pip install --no-cache-dir --upgrade beta-divergence-metrics
+    
+
+    # Clean up
+    apt-get clean
+    apt-get -y autoremove
+    rm -rvf /var/lib/apt/lists/*
+
+%environment
+    export PATH=/opt/anaconda/:/opt/anaconda/bin/:$PATH
+    
+%runscript
+    exec /bin/bash
