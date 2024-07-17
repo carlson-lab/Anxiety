@@ -17,7 +17,7 @@ Development and Experiment Record for the CPNE Anxiety Project
 
 ### Demo
 
-A demo for projecting new datasets is shown in the Anxiety_Network_Projection folder as a jupyter notebook. This pipeline demonstrates how to generate network projections of the anxiety networks which was done to generate all anxiety network scores. The expected output is saved as an html file in the folder.
+A demo for projecting new datasets is shown in the Anxiety_Network_Projection folder as a jupyter notebook. This pipeline demonstrates how to generate network projections of the anxiety networks which was done to generate all anxiety network scores. The expected output is saved as an html file in the folder. Data for running the demo will be provided with the data release prior to publication.
 
 ### Instructions for Use
 All data is saved to excel or csv format sheets on which various statistical software can be freely applied.
