@@ -21,3 +21,6 @@ A demo for projecting new datasets is shown in the Anxiety_Network_Projection fo
 
 ### Instructions for Use
 All data is saved to excel or csv format sheets on which various statistical software can be freely applied.
+
+### Reproduction
+All figure statistics can be found in /Anxiety/FullDataWork/Paper_Statistics/Paper_Stats/ with corresponding names for each figure. All data for generating the figures is found in the github. Some stats in the manuscript are instead found in /Anxiety/FullDataWork/Projections/.
